@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PhoneBook": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\druoc\\source\\repos\\PhoneBook"
+    }
+  }
+}
