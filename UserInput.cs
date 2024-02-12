@@ -22,6 +22,28 @@ namespace PhoneBook
                     {
                         "Add a record", "Update a record", "Delete a record", "View a record", "View all records", "Quit"
                     }));
+                
+                switch (userSelection)
+                {
+                    case "Add a record":
+                        PhoneBookController.AddRecord();
+                        break;
+                    case "Update":
+                        PhoneBookController.UpdateRecord();
+                        break;
+                    case "Delete a record":
+                        PhoneBookController.DeleteRecord();
+                        break;
+                    case "View a record":
+                        PhoneBookController.ViewRecord();
+                        break;
+                    case "View all records":
+                        PhoneBookController.ViewAllRecords();
+                        break;
+                    case "Quit":
+                        closeApp = true;
+                        break;
+                }
             }
         }
         
